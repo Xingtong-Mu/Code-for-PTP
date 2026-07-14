@@ -3,22 +3,23 @@ This repository contains the reference implementation for the paper:
 
 > Xingtong Mu, Xueling Duan, and Ke Deng, "Retrieval-Conditioned Probabilistic Trajectory Prediction for Maritime Early Warning Using AIS Sensor Data," submitted to *IEEE Sensors Journal*.
 
-> 1. Repository Structure
->    
->├── Code for the main program\
->   &nbsp├── dataset_build.py                 
->  &nbsp ├── main.py\
->├── Code for comparative experiments                        
->  &nbsp ├── baseline_CV_KF.py                    
->  &nbsp  ├── baseline_LSTM.py             
->   &nbsp├── baseline_BiLSTM_Attn.py        
->  &nbsp ├── baseline_Prob_GRU.py                 
->   &nbsp├── baseline_BiLSTM_MDN.py
->├── Code for ablation experiment      
-> &nbsp  ├── ablation_attention.py           
->  &nbsp ├── ablation_retrieval.py 
->├── requirements.txt
->└── README.md
+> ├── Code for the main program
+│   ├── dataset_build.py
+│   └── main.py
+│
+├── Code for comparative experiments
+│   ├── baseline_CV_KF.py
+│   ├── baseline_LSTM.py
+│   ├── baseline_BiLSTM_Attn.py
+│   ├── baseline_Prob_GRU.py
+│   └── baseline_BiLSTM_MDN.py
+│
+├── Code for ablation experiment
+│   ├── ablation_attention.py
+│   └── ablation_retrieval.py
+│
+├── requirements.txt
+└── README.md
 > 3. Installation
 >    The requirements.txt file provides all dependencies except for the base library. Please use the pip command for installation
 > 4. Raw AIS data
