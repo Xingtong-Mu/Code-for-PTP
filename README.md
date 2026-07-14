@@ -23,9 +23,9 @@ This repository contains the reference implementation for the paper:
 └── README.md
 ```
 
-> 3. Installation
+> 2. Installation
 >    The requirements.txt file provides all dependencies except for the base library. Please use the pip command for installation
-> 4. Raw AIS data
+> 3. Raw AIS data
 >    The original data is too large to be displayed here. Please visit the official website of MarineCadastre:https://marinecadastre.gov/ais/.
 >    Download the daily AIS files for **January 1–20, 2025**, and place them in the working directory as:
 
@@ -37,4 +37,7 @@ ais-2025-01-20.txt
 ```
 > 4. Build the two regional datasets
 >    Please place the raw data in the same folder as the dataset-build. py program and run the dataset building program. Please refer to the main text and program comments for specific latitude and longitude.
-> 5. 
+> 5. Experiment
+>    Please prioritize running main. py before conducting comparative and ablation experiments. Please note that the code for the comparison and ablation experiments is based on main.exe. Please place them in one folder.
+> 6. Results
+>    The zip files of our two datasets provide their respective references, test data, and test results. This is consistent with the results obtained by running our code.
