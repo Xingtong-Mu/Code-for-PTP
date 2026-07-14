@@ -99,3 +99,7 @@ The compressed dataset files for the two study regions contain:
 * prediction results.
 
 The provided prediction results are consistent with those obtained by running the released code under the corresponding experimental settings.
+
+## Acknowledgments and Contact
+
+Thank you for your interest in our work. If you have any questions, suggestions, or encounter any issues while using the code or datasets, please feel free to contact us.
