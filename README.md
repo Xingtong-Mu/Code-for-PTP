@@ -6,7 +6,7 @@ This repository contains the reference implementation for the paper:
 > 1. Repository Structure
 >    
 >├── Code for the main program\
->   ├── dataset_build.py        \         
+>   ├── dataset_build.py                 
 >   ├── main.py\
 >├── Code for comparative experiments                        
 >   ├── baseline_CV_KF.py                    
