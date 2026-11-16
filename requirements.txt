@@ -1,0 +1,10 @@
+numpy
+pandas>=2.0
+scipy
+scikit-learn
+matplotlib
+torch>=2.4
+statsmodels
+tabulate
+ipython
+jupyterlab
